@@ -33,6 +33,25 @@ Wrap variables in :root{} to give the variables global scope in the css file.
 To make font sizing easier, the html (document) font-size is set to 10px. Thus, to get 16px, it is simply 1.6rem.
 Font-size is then changed to 62.5%, which is the same as 10px. This is done so that the page zooms more constantly, but its not mandoratory.
 
+transform:scale(0); makes the menu (or property) unclickable.
+
+To target a child of an element in CSS, use >.
+For example:
+.menu > .list{}
+targets elements with the list class that are childs of the menu parent class.
+
+## JavaScript Events
+
+Use this function to catch errors while coding:
+
+const selectElement = (selector) => {
+const element = document.querySelector(selector);
+if (element) return element;
+throw new Error(
+`Something went wrong, make sure that ${selector} exists or is typed correctly.`
+);
+};
+
 ## Shortcuts
 
 Ctrl + b toggles the left menu in VsCode.
