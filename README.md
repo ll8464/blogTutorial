@@ -56,3 +56,19 @@ throw new Error(
 
 Ctrl + b toggles the left menu in VsCode.
 Alt + b duplicates lines in vscode.
+
+## Closing Remarks
+
+Overall, this tutorial is a good at showing how to build a website.
+
+The tutorial fully utilitizes CSS variables to create a very consistent color theme.
+
+The CSS is divided by sections such as a nav, blog, posts, etc. This makes it a bit more managable.
+
+However, I feel that using SASS would be a great benefit. Using variables is easier, and you can subdivide each section allowing you to easily focus on the area of interest.
+
+In terms of the HTML, the class names are fairly consisent. This opens the ability of manipulating styles via JavaScript by changing class names. I believe this is the reason why there is such emphasis on class versus id's.
+
+The SwiperJS works great, and is fairly easy to implement. Definitely a good tool to have.
+
+The main shining star is the overall mobile-first design approach. Each section has its respective grid container whose contents is display: flex. This makes moving elements around when it comes to responsive design much easier. Using flex for the entire document makes it difficult to rearrange.
